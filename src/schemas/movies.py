@@ -3,7 +3,6 @@ import datetime
 from pydantic import BaseModel, ConfigDict
 
 
-
 class MovieDetailResponseSchema(BaseModel):
     id: int
     name: str
